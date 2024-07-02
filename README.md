@@ -42,6 +42,11 @@ For exporting models to different formats (ONNX, TensorRT):
 model.export(model='jameslahm/yolov10{n/s/m/b/l/x}', format='onnx', opset=13, simplify=True)
 ```
 
+To run Streamlit demo:
+```sh
+streamlit run app.py
+```
+
 ## Docker Deployment
 Refer to the Dockerfiles in the yolov10/docker directory for deploying the application using Docker.
 
